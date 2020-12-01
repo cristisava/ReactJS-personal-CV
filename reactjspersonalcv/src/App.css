@@ -13,15 +13,13 @@
   }
 }
 
-.Header {
-  box-sizing: border-box;
-  width: 100%;
+body {
+  background-color: black;
+}
+
+.some-info {
+  color: white;
   display: flex;
   justify-content: center;
-  align-items: baseline;
-  padding: 1em;
-  margin-bottom: 2em;
-  background-color: rgb(6, 94, 145);
-  color: #fff;
-  font-size: larger;
+  align-items: center;
 }
