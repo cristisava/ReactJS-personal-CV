@@ -5,20 +5,23 @@ class Navbar extends React.Component {
   render() {
     return (
       <ul className="Navbar">
-          <li>
-              <div>About me</div>
-          </li>
-          <li>
-              <div>My Online CV</div>
-          </li>
-          <li>
-              <div>My Github</div>
-          </li>
-          <li>
-              <div>What i like</div>
-          </li>
+        <li>
+          <div>Home Page</div>
+        </li>
+        <li>
+          <div>About me</div>
+        </li>
+        <li>
+          <div>My Online CV</div>
+        </li>
+        <li>
+          <div>My Github</div>
+        </li>
+        <li>
+          <div>What i like</div>
+        </li>
       </ul>
-    )
+    );
   }
 }
 

@@ -1,14 +1,16 @@
 import "./header.css";
 import React from "react";
 
-class App extends React.Component {
+class Header extends React.Component {
   render() {
     return (
-      <header className="Header">
-          <div className="home">Home page</div>
-      </header>
-    )
+      <div className="Header">
+         <div className="Content">
+            Portfolio
+         </div>
+      </div>
+    );
   }
 }
 
-export default App;
+export default Header;

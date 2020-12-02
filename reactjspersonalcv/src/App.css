@@ -19,7 +19,20 @@ body {
 
 .some-info {
   color: white;
+  font-size: larger;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  display: block;
+  margin-left: 600px;
+  margin-top: 200px;
+  margin-right: auto;
+  border-radius: 60% 70%;
 }
