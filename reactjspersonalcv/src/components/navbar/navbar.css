@@ -10,14 +10,12 @@
 
 .Navbar {
   display: flex;
-  /* position: fixed; */
-  width: auto;
   flex-direction: column;
-  height: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 20vh;
+  padding-top: 10vh ;
+  margin: auto;
 }
 
 ul {
@@ -27,10 +25,9 @@ ul {
 }
 
 li {
-  --fill-color: #9da71c;
-  /* position: relative; */
+  --fill-color: #c9e23b;
   padding: 6px 0;
-  font: 600 3rem Raleway, sans-serif;
+  font: 600 2rem Raleway, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-text-stroke: 2px var(--fill-color);
@@ -43,3 +40,4 @@ li {
 li:hover {
   background-size: 100%;
 }
+
