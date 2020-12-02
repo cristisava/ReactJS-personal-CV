@@ -10,14 +10,13 @@
 
 .Navbar {
   display: flex;
-  position: fixed;
-  width: fit-content;
+  /* position: fixed; */
+  width: auto;
   flex-direction: column;
   height: auto;
   justify-content: center;
-  align-items: left;
-  text-align: left;
-  background-color: black;
+  align-items: center;
+  text-align: center;
   margin-top: 20vh;
 }
 
