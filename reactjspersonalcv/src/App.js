@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Header from "./components/header/header.jsx";
-import Navbar from "./components/navbar/navbar.jsx";
+import Navigate from "./components/navigate/navigate.jsx";
 import {
   BrowserRouter,
   Switch,
@@ -18,7 +18,7 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <Header></Header>
-          <Navbar>
+          <Navigate>
           <Switch>
             <Route path="/aboutme">
               <AboutMe/>
@@ -27,7 +27,7 @@ class App extends React.Component {
               <MyOnlineCV />
             </Route>
           </Switch>
-          </Navbar>
+          </Navigate>
         </BrowserRouter>
         {/* <Header></Header>
         <Navbar></Navbar> */}
