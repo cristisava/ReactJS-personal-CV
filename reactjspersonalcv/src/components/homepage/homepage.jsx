@@ -21,10 +21,10 @@ class HomePage extends React.Component {
         </div>
         <div className="image-slider">
         <AliceCarousel autoPlay="true" infinite="true" autoPlayInterval="2000">
-      <img src={logo8} className="sliderimg"/>
-      <img src={logo9} className="sliderimg"/>
-      <img src={logo10} className="sliderimg"/>
-      <img src={logo11} className="sliderimg"/>
+      <img src={logo8} className="sliderimg" alt="work1"/>
+      <img src={logo9} className="sliderimg" alt="work1"/>
+      <img src={logo10} className="sliderimg" alt="work1"/>
+      <img src={logo11} className="sliderimg" alt="work1"/>
         </AliceCarousel>
         </div>
       </div>
