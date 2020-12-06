@@ -1,14 +1,14 @@
 import "./App.css";
 import React from "react";
 import Header from "./components/header/header.jsx";
-import Navigate from "./components/navigate/navigate.jsx";
+import HomePage from "./components/homepage/homepage.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
+import MyOnlineCV from "./pages/MyOnlineCV";
 import {
   BrowserRouter,
   Switch,
   Route,
 } from "react-router-dom";
-import AboutMe from "./pages/AboutMe.jsx";
-import MyOnlineCV from "./pages/MyOnlineCV";
 
 
 
@@ -17,20 +17,13 @@ class App extends React.Component {
     return (
       <div>
         <BrowserRouter>
-          <Header></Header>
-          <Navigate>
+          <Header />
           <Switch>
-            <Route path="/aboutme">
-              <AboutMe/>
-            </Route>
-            <Route path="/myonlinecv">
-              <MyOnlineCV />
-            </Route>
+            <Route path="/aboutme" component={AboutMe} />
+            <Route path="/myonlinecv" component={MyOnlineCV} />
+            <Route path="/" component={HomePage} />
           </Switch>
-          </Navigate>
         </BrowserRouter>
-        {/* <Header></Header>
-        <Navbar></Navbar> */}
       </div>
     );
   }

@@ -5,7 +5,7 @@ class MyOnlineCV extends React.Component {
   render() {
     return (
       <div className="onlinecv">
-         
+         My online cv page
       </div>
     );
   }

@@ -1,25 +1,26 @@
 import "./header.css";
 import React from "react";
-import eu from "../header/eu.jpg";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
     return (
       <div>
-      <div class="topnav" id="myTopnav">
-        <p>Home</p>
-        <p>Online CV</p>
-        <p>Contact</p>
-        <p>About Me</p>
+        <div class="topnav" id="myTopnav">
+          <Link to="/">
+            <p>Home</p>
+          </Link>
+          <Link to="/myonlinecv">
+            <p>Online CV</p>
+          </Link>
+          <Link to="/contact">
+            <p>Contact</p>
+          </Link>
+          <Link to="/aboutme">
+            <p>About Me</p>
+          </Link>
+        </div>
       </div>
-      <div className="Header">
-          <img src={eu} className="eu" alt="poza"></img>
-          <div className="Content">
-           Hi, I'm Cristian Sava, future Front-End Developer
-         </div>
-       </div>
-      </div>
-       
     );
   }
 }
