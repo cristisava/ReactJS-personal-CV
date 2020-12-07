@@ -19,15 +19,13 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    border-radius: 50%;
   }
 
-  p {
+  .workp {
     color: white;
     display: flex;
     text-align: center;
     justify-content: center;
     padding-top: 80px;
-    border-radius: 50%;
     opacity: 0.8;
   }

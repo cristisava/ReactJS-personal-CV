@@ -29,7 +29,7 @@ class MyWork extends React.Component {
           >
             <h1>ReactJS Movie App</h1>
           </a>
-          <p>
+          <p className="workp">
             This was our final project, the team project.We had to create a
             movie app, everyone had their individual task. Here are some
             screenshots of the projects and some lines of code.
@@ -55,7 +55,7 @@ class MyWork extends React.Component {
           >
             <h1>ReactJS Game App</h1>
           </a>
-          <p>
+          <p className="workp">
             This is the Game App i made using ReactJS.The goal was to create a
             simple webpage where we show all the games fetched from an external
             API.
@@ -80,7 +80,7 @@ class MyWork extends React.Component {
           >
             <h1>VanilaJS player game</h1>
           </a>
-          <p>
+          <p className="workp">
             This is a simple JavaScript game that i created. The green ball
             that's in the box is moving when i press the arrows in the direction
             that i want.
@@ -104,6 +104,9 @@ class MyWork extends React.Component {
             rel="noreferrer"
           >
             <h1>VanilaJS game app</h1>
+            <p className="workp">This is the Game App i made using VanilaJS.The goal was to create a
+            simple webpage where we show all the games fetched from an external
+            API.</p>
           </a>
           <div className="image-slider">
             <AliceCarousel

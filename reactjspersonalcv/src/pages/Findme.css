@@ -1,63 +1,45 @@
-.container {
-  width: 800px;
-  height: 250px;
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  margin: auto;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-  grid-template-rows: 1fr;
-  grid-gap: 15px;
-}
-
-.items {
-  border-radius: 5px;
-  display: grid;
-  grid-template-rows: 2fr 1fr;
-  grid-gap: 10px;
-  cursor: pointer;
-  border: 3px dotted white;
-  transition: all 0.6s;
-}
-
-
-.icon-wrapper, .project-name {
+.cards-list {
+  z-index: 0;
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 80px;
 }
 
-.icon-wrapper i {
-  font-size: 100px;
-  color: #c9e23b;
-  transform: translateY(0px);
-  transition: all 0.6s;
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-.icon-wrapper {
-  align-self: end;  
+.card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
 }
 
-.project-name {
-  align-self: start;
-}
-.project-name p {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #c9e23b;  
-  transform: translateY(0px);
-  transition: all 0.5s;
+.card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
 }
 
-.items:hover {
-  border: 3px solid #c9e23b;
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
-  
-  .project-name p {
-    transform: translateY(-10px);
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
- .icon-wrapper i {
-    transform: translateY(5px);
-  }
+}
+
