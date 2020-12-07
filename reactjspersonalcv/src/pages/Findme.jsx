@@ -22,17 +22,17 @@ class Findme extends React.Component {
               </a>
             </div>
           </div>
-            <div class="card 2">
-              <div class="card_image">
-          <a
-            href="https://www.instagram.com/cristisava69/"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <div class="card 2">
+            <div class="card_image">
+              <a
+                href="https://www.instagram.com/cristisava69/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={instagramicon} alt="fblogo"></img>
-          </a>
-              </div>
+              </a>
             </div>
+          </div>
           <div class="card 3">
             <div class="card_image">
               <img src={gmailicon4} alt="fblogo"></img>
@@ -40,12 +40,12 @@ class Findme extends React.Component {
           </div>
           <div class="card 4">
             <div class="card_image">
-            <a
-            href="https://github.com/cristisava"
-            rel="noreferrer"
-            target="_blank"
-          >
-              <img src={githubicon} alt="fblogo"></img>
+              <a
+                href="https://github.com/cristisava"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={githubicon} alt="fblogo"></img>
               </a>
             </div>
           </div>

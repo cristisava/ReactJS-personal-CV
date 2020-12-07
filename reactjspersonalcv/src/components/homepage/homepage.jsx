@@ -15,7 +15,9 @@ class HomePage extends React.Component {
           </div>
         </div>
         <div className="bttn">
-          <Link to="/mywork"><button>Check my work!</button></Link>
+          <Link to="/mywork">
+            <button>Check my work!</button>
+          </Link>
         </div>
       </div>
     );

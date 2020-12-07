@@ -104,9 +104,11 @@ class MyWork extends React.Component {
             rel="noreferrer"
           >
             <h1>VanilaJS game app</h1>
-            <p className="workp">This is the Game App i made using VanilaJS.The goal was to create a
-            simple webpage where we show all the games fetched from an external
-            API.</p>
+            <p className="workp">
+              This is the Game App i made using VanilaJS.The goal was to create
+              a simple webpage where we show all the games fetched from an
+              external API.
+            </p>
           </a>
           <div className="image-slider">
             <AliceCarousel
