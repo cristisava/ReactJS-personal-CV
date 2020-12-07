@@ -15,13 +15,7 @@ class Footer extends React.Component {
           <Link to="/findme">
             <p>Find Me</p>
           </Link>
-          <Link to="/aboutme">
-            <p>About Me</p>
-            </Link>
         </div>
-        // <div class="bottomnav" id="myBottomnav">
-        //   <p> © 2020 Copyright Cristian Sava </p>
-        // </div>
     );
   }
 }

@@ -1,6 +1,7 @@
 import "./homepage.css";
 import eu from "../header/eu.jpg";
 import React from "react";
+import { Link } from "react-router-dom";
 
 class HomePage extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class HomePage extends React.Component {
           </div>
         </div>
         <div className="bttn">
-          <button>Check my work!</button>
+          <Link to="/mywork"><button>Check my work!</button></Link>
         </div>
       </div>
     );

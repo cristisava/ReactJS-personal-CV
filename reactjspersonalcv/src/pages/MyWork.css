@@ -3,8 +3,31 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    height: 30%;
+    width: 60%;
+    height: 400px;
     object-fit: cover;
     margin-top: 50px;
+  }
+
+  h1 {
+    --fill-color: white;
+    font: 600 2.5rem Raleway, sans-serif;
+    -webkit-text-stroke: 2px var(--fill-color);
+    color: transparent;
+    background-clip: text;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    border-radius: 50%;
+  }
+
+  p {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    border-radius: 50%;
+    opacity: 0.8;
   }
