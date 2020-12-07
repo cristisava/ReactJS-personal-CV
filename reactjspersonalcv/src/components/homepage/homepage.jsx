@@ -14,7 +14,7 @@ class HomePage extends React.Component {
     return (
       <div>
         <div className="Header">
-          <img src={eu} className="eu" alt="poza"></img>
+          <img src={eu} className="eu" alt="me"></img>
           <div className="Content">
             Hi, I'm Cristian Sava, future Front-End Developer
           </div>

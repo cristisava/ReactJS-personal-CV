@@ -1,11 +1,11 @@
-import "./header.css";
+import "./footer.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-class Header extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
-        <div class="topnav" id="myTopnav">
+        <div class="bottomnav" id="myBottomnav">
           <Link to="/">
             <p>Home</p>
           </Link>
@@ -17,10 +17,13 @@ class Header extends React.Component {
           </Link>
           <Link to="/aboutme">
             <p>About Me</p>
-          </Link>
+            </Link>
         </div>
+        // <div class="bottomnav" id="myBottomnav">
+        //   <p> © 2020 Copyright Cristian Sava </p>
+        // </div>
     );
   }
 }
 
-export default Header;
+export default Footer;
