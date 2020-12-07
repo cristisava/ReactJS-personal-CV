@@ -1,7 +1,7 @@
 import "./MyWork.css";
-import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import React from "react";
 import gameapp1 from "../components/photos/gameapp1.jpg";
 import gameapp2 from "../components/photos/gameapp2.jpg";
 import gameapp3 from "../components/photos/gameapp3.jpg";
@@ -22,10 +22,17 @@ class MyWork extends React.Component {
     return (
       <div className="mywork">
         <div className="React-game-app">
-          <h1>ReactJS Movie App</h1>
-          <p>This was our final project, the team project.We had
-            to create a movie app, everyone had their individual task.
-            Here are some screenshots of the projects and some lines of code.
+          <a
+            target="_blank"
+            href="https://github.com/razvantimis/myIMDB-16.2"
+            rel="noreferrer"
+          >
+            <h1>ReactJS Movie App</h1>
+          </a>
+          <p>
+            This was our final project, the team project.We had to create a
+            movie app, everyone had their individual task. Here are some
+            screenshots of the projects and some lines of code.
           </p>
           <div className="image-slider">
             <AliceCarousel
@@ -41,10 +48,18 @@ class MyWork extends React.Component {
           </div>
         </div>
         <div className="React-game-app">
-          <h1>ReactJS Game App</h1>
-          <p>This is the Game App i made using ReactJS.The goal was to create\
-            a simple webpage where we show all the games fetched from an 
-            external API.</p>
+          <a
+            target="_blank"
+            href="https://github.com/cristisava/ReactGameList"
+            rel="noreferrer"
+          >
+            <h1>ReactJS Game App</h1>
+          </a>
+          <p>
+            This is the Game App i made using ReactJS.The goal was to create a
+            simple webpage where we show all the games fetched from an external
+            API.
+          </p>
           <div className="image-slider">
             <AliceCarousel
               autoPlay="true"
@@ -58,10 +73,17 @@ class MyWork extends React.Component {
           </div>
         </div>
         <div className="React-game-app">
-          <h1>VanilaJS player game</h1>
-          <p>This is a simple JavaScript game that i created. The green ball
-            that's in the box is moving when i press the arrows in the 
-            direction that i want.
+          <a
+            target="_blank"
+            href="https://github.com/cristisava/playerGame"
+            rel="noreferrer"
+          >
+            <h1>VanilaJS player game</h1>
+          </a>
+          <p>
+            This is a simple JavaScript game that i created. The green ball
+            that's in the box is moving when i press the arrows in the direction
+            that i want.
           </p>
           <div className="image-slider">
             <AliceCarousel
@@ -76,7 +98,13 @@ class MyWork extends React.Component {
           </div>
         </div>
         <div className="React-game-app">
-          <h1>VanilaJS game app</h1>
+          <a
+            target="_blank"
+            href="https://github.com/cristisava/gameList"
+            rel="noreferrer"
+          >
+            <h1>VanilaJS game app</h1>
+          </a>
           <div className="image-slider">
             <AliceCarousel
               autoPlay="true"

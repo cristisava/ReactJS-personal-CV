@@ -6,7 +6,8 @@ import MyWork from "./pages/MyWork.jsx";
 import MyOnlineCV from "./pages/MyOnlineCV.jsx";
 import Findme from "./pages/Findme.jsx";
 import Footer from "./components/footer/footer.jsx";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import { AnimatedSwitch } from "react-router-transition";
 
 class App extends React.Component {
   render() {
@@ -14,12 +15,17 @@ class App extends React.Component {
       <div className="appp">
         <BrowserRouter>
           <Header />
-          <Switch>
+          <AnimatedSwitch
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+          >
             <Route path="/mywork" component={MyWork} />
             <Route path="/myonlinecv" component={MyOnlineCV} />
             <Route path="/findme" component={Findme} />
             <Route path="/" component={HomePage} />
-          </Switch>
+          </AnimatedSwitch>
           <Footer />
         </BrowserRouter>
       </div>
