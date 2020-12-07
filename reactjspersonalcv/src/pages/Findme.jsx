@@ -7,8 +7,6 @@ class Findme extends React.Component {
         <div className="container">
   <div className="items">
     <div className="icon-wrapper">
-      <i className="fa fa-file-text-o">
-      </i>
     </div>
     <div className="project-name">
       <p>FACEBOOK</p>
@@ -16,7 +14,6 @@ class Findme extends React.Component {
   </div>
   <div className="items">
     <div className="icon-wrapper">
-      <i className="fa fa-th-list"></i>
     </div>
     <div className="project-name">
       <p>INSTAGRAM</p>
@@ -24,7 +21,6 @@ class Findme extends React.Component {
   </div>
   <div className="items">
     <div className="icon-wrapper">
-      <i className="fa fa-th-large"></i>
     </div>
     <div className="project-name">
       <p>GITHUB</p>

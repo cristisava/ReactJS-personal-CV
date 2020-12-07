@@ -12,11 +12,11 @@ class Header extends React.Component {
           <Link to="/myonlinecv">
             <p>Online CV</p>
           </Link>
+          <Link to="/mywork">
+            <p>My Work</p>
+          </Link>
           <Link to="/findme">
             <p>Find Me</p>
-          </Link>
-          <Link to="/aboutme">
-            <p>About Me</p>
           </Link>
         </div>
     );
