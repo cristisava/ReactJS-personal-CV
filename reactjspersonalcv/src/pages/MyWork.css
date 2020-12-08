@@ -9,7 +9,7 @@
     margin-top: 50px;
   }
 
-  h1 {
+  .the-title {
     --fill-color: white;
     font: 600 2.5rem Raleway, sans-serif;
     -webkit-text-stroke: 2px var(--fill-color);
@@ -18,7 +18,7 @@
     opacity: 0.8;
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 50px;
   }
 
   .workp {

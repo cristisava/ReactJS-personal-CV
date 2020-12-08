@@ -27,7 +27,7 @@ class MyWork extends React.Component {
             href="https://github.com/razvantimis/myIMDB-16.2"
             rel="noreferrer"
           >
-            <h1>ReactJS Movie App</h1>
+            <h1 className="the-title">ReactJS Movie App</h1>
           </a>
           <p className="workp">
             This was our final project, the team project.We had to create a
@@ -53,7 +53,7 @@ class MyWork extends React.Component {
             href="https://github.com/cristisava/ReactGameList"
             rel="noreferrer"
           >
-            <h1>ReactJS Game App</h1>
+            <h1 className="the-title">ReactJS Game App</h1>
           </a>
           <p className="workp">
             This is the Game App i made using ReactJS.The goal was to create a
@@ -78,7 +78,7 @@ class MyWork extends React.Component {
             href="https://github.com/cristisava/playerGame"
             rel="noreferrer"
           >
-            <h1>VanilaJS player game</h1>
+            <h1 className="the-title">VanilaJS player game</h1>
           </a>
           <p className="workp">
             This is a simple JavaScript game that i created. The green ball
@@ -103,7 +103,7 @@ class MyWork extends React.Component {
             href="https://github.com/cristisava/gameList"
             rel="noreferrer"
           >
-            <h1>VanilaJS game app</h1>
+            <h1 className="the-title">VanilaJS game app</h1>
             <p className="workp">
               This is the Game App i made using VanilaJS.The goal was to create
               a simple webpage where we show all the games fetched from an

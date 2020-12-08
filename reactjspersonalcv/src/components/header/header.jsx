@@ -10,7 +10,7 @@ class Header extends React.Component {
           <p>Home</p>
         </Link>
         <Link to="/myonlinecv">
-          <p>Online CV</p>
+          <p>About Me</p>
         </Link>
         <Link to="/findme">
           <p>Find Me</p>
