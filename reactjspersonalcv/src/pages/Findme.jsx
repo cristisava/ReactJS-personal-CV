@@ -9,7 +9,7 @@ class Findme extends React.Component {
   render() {
     return (
       <div>
-        <h1>You can follow me at</h1>
+        <h1 className="the-title">You can follow me at</h1>
         <div class="cards-list">
           <div class="card 1">
             <div class="card_image">

@@ -1,0 +1,23 @@
+.title-games {
+    --fill-color: white;
+    font: 600 2.5rem Raleway, sans-serif;
+    -webkit-text-stroke: 2px var(--fill-color);
+    color: transparent;
+    background-clip: text;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.games {
+    --fill-color: yellow;
+    font: 300 1.5rem Raleway, sans-serif;
+    -webkit-text-stroke: 2px var(--fill-color);
+    color: transparent;
+    background-clip: text;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}

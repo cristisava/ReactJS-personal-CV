@@ -1,5 +1,4 @@
 import "./homepage.css";
-import eu from "../header/eu.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 import Typical from "react-typical";
@@ -9,7 +8,6 @@ class HomePage extends React.Component {
     return (
       <div>
         <div className="Header">
-          <img src={eu} className="eu" alt="me"></img>
           <div className="Content">
             Hi, I'm <span className="clr">Cristian Sava, </span>
             <Typical
@@ -24,6 +22,10 @@ class HomePage extends React.Component {
               ]}
             />
           </div>
+        </div>
+        <div className="info">
+          This is my first personal portfolio, created using Reactjs.
+          Hope you like it.
         </div>
         <div className="bttn">
           <Link to="/mywork">

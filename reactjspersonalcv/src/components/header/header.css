@@ -7,16 +7,6 @@
   margin: auto;
 }
 
-.Content {
-    --fill-color: white;
-  padding: 3px 0;
-  font: 600 3rem Raleway, sans-serif;
-  text-decoration: none;
-  -webkit-text-stroke: 2px var(--fill-color);
-  color: transparent;
-  opacity: 0.8;
-}
-
   .topnav {
     color: transparent;
     overflow: hidden;

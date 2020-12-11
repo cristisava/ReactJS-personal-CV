@@ -15,6 +15,9 @@ class Header extends React.Component {
         <Link to="/findme">
           <p>Find Me</p>
         </Link>
+        <Link to="/minigames">
+          <p>Mini Games</p>
+        </Link>
       </div>
     );
   }

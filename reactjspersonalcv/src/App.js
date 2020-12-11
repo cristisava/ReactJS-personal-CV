@@ -6,6 +6,8 @@ import MyWork from "./pages/MyWork.jsx";
 import MyOnlineCV from "./pages/MyOnlineCV.jsx";
 import Findme from "./pages/Findme.jsx";
 import Footer from "./components/footer/footer.jsx";
+import Minigames from "./pages/minigames.jsx";
+import Snakegame from "./components/games/snakegame.jsx";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
@@ -18,6 +20,8 @@ class App extends React.Component {
             <Route path="/mywork" component={MyWork} />
             <Route path="/myonlinecv" component={MyOnlineCV} />
             <Route path="/findme" component={Findme} />
+            <Route path="/minigames" component={Minigames} />
+            <Route path="/snakegame" component={Snakegame} />
             <Route path="/" component={HomePage} />
           </Switch>
           <Footer />
