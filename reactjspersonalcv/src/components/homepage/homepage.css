@@ -7,7 +7,17 @@
   text-decoration: none;
 }
 
-.Content {
+.header {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: auto;
+}
+
+
+.content {
   --fill-color: white;
 padding-top: 250px;
 font: 600 3.2rem Raleway, sans-serif;

@@ -7,8 +7,8 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <div className="Header">
-          <div className="Content">
+        <div className="header">
+          <div className="content">
             Hi, I'm <span className="clr">Cristian Sava, </span>
             <Typical
               loop={Infinity}

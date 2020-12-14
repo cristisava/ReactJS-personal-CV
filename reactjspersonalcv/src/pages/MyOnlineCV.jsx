@@ -1,12 +1,10 @@
 import "./MyOnlineCV.css";
 import React from "react";
-import eu from "../components/header/eu.jpg";
+import eu from "../assets/eu.jpg";
 
 class MyOnlineCV extends React.Component {
   render() {
     return (
-      <div>
-        <h1 className="the-title">My personal CV</h1>
         <div className="container-cv">
           <header className="cv-title">
             <img src={eu} className="cvImage" alt="Profile"></img>
@@ -14,7 +12,7 @@ class MyOnlineCV extends React.Component {
               <h1 className="titles-cv2">Cristian Sava</h1>
             </div>
           </header>
-          <div className="content">
+          <div className="content-cv">
             <div className="left">
               <div className="left-side">
                 <h2 className="titles-cv">Contact</h2>
@@ -89,7 +87,6 @@ class MyOnlineCV extends React.Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

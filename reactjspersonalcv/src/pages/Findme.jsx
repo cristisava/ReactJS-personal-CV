@@ -1,9 +1,9 @@
 import "./Findme.css";
 import React from "react";
-import fbicon from "../components/photos/fbicon.svg";
-import instagramicon from "../components/photos/instagramicon.svg";
-import gmailicon4 from "../components/photos/gmailicon4.svg";
-import githubicon from "../components/photos/githubicon.svg";
+import fbicon from "../assets/fbicon.svg";
+import instagramicon from "../assets/instagramicon.svg";
+import gmailicon4 from "../assets/gmailicon4.svg";
+import githubicon from "../assets/githubicon.svg";
 
 class Findme extends React.Component {
   render() {
@@ -35,7 +35,9 @@ class Findme extends React.Component {
           </div>
           <div class="card 3">
             <div class="card_image">
-              <img src={gmailicon4} alt="fblogo"></img>
+              <a href="mailto:cristirock69@gmail.com" target="_blank" rel="noreferrer">
+              <img src={gmailicon4} alt="fblogo"></img> 
+              </a>
             </div>
           </div>
           <div class="card 4">
