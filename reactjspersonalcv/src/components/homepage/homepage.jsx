@@ -29,7 +29,7 @@ class HomePage extends React.Component {
         </div>
         <div className="bttn">
           <Link to="/mywork">
-            <button>Check my work!</button>
+            <button className="work-btn">Check my work!</button>
           </Link>
         </div>
       </div>

@@ -1,0 +1,29 @@
+.city-input {
+  margin-top: 100px;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.city-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.city-input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.temp-div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
